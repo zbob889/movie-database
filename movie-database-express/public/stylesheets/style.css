@@ -1,8 +1,38 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-a {
-  color: #00B7FF;
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  display: flex;
+  gap: 40vw;
+  background-color: beige;
+  height: 100px;
+}
+
+#header-title {
+  margin-left: 20px;
+  margin-top: 25px;
+  font-size: 36px;
+}
+
+#links {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+#film-list {
+  background-color: bisque;
+  height: 100%;
 }
